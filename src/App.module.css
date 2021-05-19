@@ -1,0 +1,24 @@
+.appContent {
+  text-align: center;
+  display: grid;
+  width: 1200px;
+  margin: 0 auto;
+  background:#2C3E50;
+
+  grid-template-areas:
+    "header"
+    "time"
+    "buttons";
+
+  grid-template-rows: 130px 300px 150px ;
+  grid-template-columns: 12fr;
+  grid-gap: 10px;
+}
+
+.timer {
+  width: 50%;
+  background: #fff;
+  margin: 25px auto ;
+  position: relative;
+  /* border-radius: 10px; */
+}

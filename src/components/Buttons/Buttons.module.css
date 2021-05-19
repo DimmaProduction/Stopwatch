@@ -1,0 +1,37 @@
+.content {
+    grid-area: buttons;
+    text-align: center;
+    /* background-color: rgb(53, 0, 245); */
+}
+
+.content button{
+    background: #fff;
+    margin-top: 30px;
+    margin-left: 5px;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+    width: 150px;
+    transition: background 1s;
+    cursor: pointer;
+}
+
+.resumeButton:hover, .startButton:hover, .waitButton:hover{
+    background: #55c946;
+    border: 2px solid #57be4e;
+    color: rgb(255, 255, 255);
+  }
+
+.resetButton:hover {
+    background: #C85454;
+    border: 2px solid #C85454;
+    color: #fff;
+  }
+
+
+  .clickBlock {
+    color: rgb(255, 255, 255);
+    background-color: red;
+    
+  }
